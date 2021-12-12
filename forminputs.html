@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <form class="" action="" method="post" autocomplete="on">
+    <div>
+      <fieldset>
+        <legend>
+          personal INfo:
+        </legend>
+        <label for="year">select your year </label>
+        <input list="year" name="year">
+        <datalist id="year">
+          <option value="1st year">
+          <option value="2 nd year">
+          <option value="3 rdyear">
+          <option value="4 th year">
+        </datalist>
+        <!--  <input list="browsers" name="browser">
+        <datalist id="browsers">
+          <option value="Internet Explorer">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist>-->
+        <input type="submit"><br>
+        <label for="name">Enter your roll no:</label>
+        <input type="text" name="rollno" id="rollno" value="" maxlength="10">
+        <input type="submit" name="" value="submit"><br>
+        <label for="password">Enter password</label>
+        <input type="password" name="password" value="">
+        <input type="reset" name="reset" value="reset"><br>
+        <label for="reset">Enter your name:</label>
+        <input type="text" name="name" value=""><br>
+        <label for="email">Enter email: </label>
+        <input type="email" name="email" value=""><br>
+        <input type="submit" name="submit" value="submit">
+        <input type="hidden" name="custid" id="rollno" value="rollno"><br>
+        <label for="self">tell about yourself:</label><br>
+        <textarea name="self" rows="4" cols="50"></textarea>
+        <!--<input type="number" name="phoneno" value="phoneno" min="10">-->
+      </fieldset>
+    </div>
+    <div class="radio">
+      <fieldset>
+        <legend>MARKSINFO:</legend>
+        <p>select how many backlogs you have</p>
+        <label for="0">0</label>
+        <input type="radio" name="backlogs" value=""><br>
+        <label for="1">1</label>
+        <input type="radio" name="backlogs" value=""><br>
+        <label for="2">2</label>
+        <input type="radio" name="backlogs" value=""><br>
+        <label for="3">3</label>
+        <input type="radio" name="backlogs" value=""><br>
+        <label for="more">more than 3</label>
+        <input type="radio" name="backlogs" id=""><br>
+        <label for="file">Upload marks sheet:</label><br>
+        <input type="file" name="file" value="">
+      </fieldset>
+    </div>
+    <div class="checkbox">
+      <h3 style="color:red;">select your package</h3>
+      <input type="checkbox" name="package" value="">
+      <label for="package">2-3 lpa</label><br>
+      <input type="checkbox" name="package" value="">
+      <label for="package">3-4 lpa</label><br>
+      <input type="checkbox" name="package" value="">
+      <label for="package">4-8 lpa</label>
+    </div>
+    <div class="color input">
+      <input type="color" name="color" value="">
+    </div>
+    <div class="date picker">
+      <label for="date"> select your DOB</label>
+      <input type="date" name="date" value="pick date">
+      <input type="time" name="" value="">
+    </div>
+    <div class="option">
+      <label for="option">selct your a language to proceed: </label>
+      <select class="language" name="">
+        <option value="python">python</option>
+        <option value="c-language">c-langugage</option>
+        <option value="c++">c++</option>
+        <option value="ruby">ruby</option>
+
+      </select>
+    </div>
+    <div class="option group ">
+      <label for="cars">choose your favourite car</label>
+      <optgroup label="sportscar">
+        <option value="bmw">bmw</option>
+        <option value="lamorgini">lamborgini</option>
+        </option>
+      <optgroup label="electric">
+        <option value="tesla">tesla</option>
+        <option value="tata">tata</option>
+      </optgroup>
+
+    </div>
+    <div class="onclick  alert">
+      <input type="button" onclick="alert('sucessfully sumbitted')" value="submit">
+    </div>
+    <div class="datalist">
+      <input type="hidden" name="hidden" value="">
+    </div>
+  </form>
+
+
+</body>
+
+</html>
